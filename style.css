@@ -1,15 +1,79 @@
+/* #container {
+    
+} */
+
+body {
+    font-family: Helvetica;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: black;
+    padding-bottom: 10px;
+}
+
+
+#carInfo {
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+}
+
+/* .season20-21 p {
+    font-family: monospace;
+    font-size: 8px;
+} */
+
+/* control image sizes as i cant figure out way to dynamically adjust size  */
+img {
+    width: 105%;
+}
+
+#container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+}
+
+#imagesMain {
+    display: flex;
+    flex-wrap: wrap;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 25px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .column {
-    flex: 50%;
+    float: left;
+    flex: 25%;
     padding: 10px;
 }
 
-.column img {
+/* .column img {
     margin-top: 10px;
     vertical-align: middle;
+} */
+
+
+/*
+FOOTER STYLING 
+*/
+
+#end {
+    padding: 10px;
+    text-align: center;
+}
+
+#end img{
+    margin: 0 auto;
+    width: 20%;
+    opacity: 0.2;
+}
+
+#end img:hover{
+    opacity: 1.0;
 }
