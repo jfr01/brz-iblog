@@ -10,13 +10,30 @@ body {
     padding-bottom: 10px;
 }
 
-
-#carInfo {
-    text-align: center;
-    border-style: double;
-    border-color: gray;
-    border-radius: 10px;
+#container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
 }
+
+ #headContainer {
+    text-align: center;
+    /* display: inline-block; 
+    float: left;
+    width: 48%; */
+}
+
+/* #headContainer img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+#carInfo{
+    display: inline-block; 
+    float: left;
+    width: 48%
+}  */
 
 #menu {
     text-align: center;
@@ -43,10 +60,10 @@ body {
 } 
 
 
-/* .season20-21 p {
+.season20-21 {
     font-family: monospace;
     font-size: 8px;
-} */
+} 
 
 /* control image sizes as i cant figure out way to dynamically adjust size  */
 img {
@@ -57,13 +74,6 @@ img {
 
 .galleryimage hover{
     opacity: 0.7;
-}
-
-#container {
-    max-width: 850px;
-    margin: 0 auto;
-    padding: 0 2rem;
-
 }
 
 #imagesMain {
