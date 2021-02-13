@@ -17,23 +17,29 @@ body {
     width: 100%;
 }
 
- #headContainer {
+#headContainer {
     text-align: center;
-    /* display: inline-block; 
-    float: left;
-    width: 48%; */
-}
-
-/* #headContainer img{
-    width: 250px;
-    border-radius: 50%;
-}
-
-#carInfo{
     display: inline-block; 
+    width: 100%;
+}
+
+#headContainer img{
+    margin: 15px;
+    padding: 10px;
+    width: 170px;
+    border-radius: 50%;
+
+}
+
+#profileImage{
     float: left;
     width: 48%
-}  */
+} 
+
+#carInfo{
+    float: right;
+    width: 48%
+} 
 
 #menu {
     text-align: center;
