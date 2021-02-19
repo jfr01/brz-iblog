@@ -16,18 +16,18 @@
 
 
 let modal = document.getElementById('myModal');
-let img = document.getElementById('galleryimage');
+let img = document.getElementsByClassName('galleryimage');
 let modalImg = document.getElementById('img01');
 let captionText = document.getElementById('caption');
 let span = document.getElementsByClassName('close')[0];
 
 
-img.onclick = function () {
+img.onClick = function () {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
 
-span.onclick = function () {
+span.onClick = function () {
     modal.style.display = "none";
 }
