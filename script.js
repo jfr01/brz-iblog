@@ -16,7 +16,7 @@
 
 
 let modal = document.getElementById('myModal');
-let img = document.getElementById('.galleryimage');
+let img = document.getElementById('galleryimage');
 let modalImg = document.getElementById('img01');
 let captionText = document.getElementById('caption');
 let span = document.getElementsByClassName('close')[0];
@@ -27,7 +27,6 @@ img.onclick = function () {
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-
 
 span.onclick = function () {
     modal.style.display = "none";
