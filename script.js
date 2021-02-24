@@ -36,4 +36,7 @@ Array.from(images).forEach(function (img) {
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
     }
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
 })
