@@ -72,6 +72,28 @@ body {
     font-size: 8px;
 } 
 
+/* STYLE NEW GALLERY USING LIGHTBOX */ 
+
+.gallery {
+    margin: 10px 30px;
+    align-content: center;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 10px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+/* END STYLE NEW GALLERY USING LIGHTBOX */ 
+
 /* control image sizes as i cant figure out way to dynamically adjust size  */
 img {
     width: 105%;
